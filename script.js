@@ -9,13 +9,13 @@ let player;
 // Load the YouTube player
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
-        height: '360',
-        width: '640',
-        videoId: 'YOUR_YOUTUBE_VIDEO_ID', // Replace with your YouTube video ID
+        height: '0',
+        width: '0',
+        videoId: 'aMnD5Pnwtv0', // Replace with your YouTube video ID
         playerVars: {
             'autoplay': 1, // Auto play the video
             'loop': 1, // Loop the video
-            'playlist': 'YOUR_YOUTUBE_VIDEO_ID' // To loop, playlist must be the same video ID
+            'playlist': 'aMnD5Pnwtv0' // To loop, playlist must be the same video ID
         },
         events: {
             'onReady': (event) => {
