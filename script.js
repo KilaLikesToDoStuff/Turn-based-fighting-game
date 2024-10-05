@@ -9,8 +9,8 @@ let player;
 // Load the YouTube player
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
-        height: '0',
-        width: '0',
+        height: '360',
+        width: '360',
         videoId: 'aMnD5Pnwtv0', // Replace with your YouTube video ID
         playerVars: {
             'autoplay': 1, // Auto play the video
